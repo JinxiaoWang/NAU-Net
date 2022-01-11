@@ -132,7 +132,7 @@ class NAU_Net(nn.Module):
         ndi = input[:,-1:,:,:]
 
         #ndi3 = F.avg_pool2d(ndi,kernel_size = [16,16])
-        #layer3 = self.alpha0*ndi3*layer3 + self.beita0*layer3  # No NA block is applied to layer3
+        #layer3 = self.alpha0*ndi3*layer3 + self.beita0*layer3  # No NA block is applied to layer3 in the updated NAU-Net architecture.
         x = self.decode_block3(layer4,layer3)
         
         ndi2 = F.avg_pool2d(ndi,kernel_size = [8,8])
