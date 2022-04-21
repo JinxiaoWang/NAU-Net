@@ -115,10 +115,10 @@ class NAU_Net(nn.Module):
         self.alpha1 = nn.Parameter(torch.ones(1))
         self.alpha2 = nn.Parameter(torch.ones(1))
         self.alpha3 = nn.Parameter(torch.ones(1))
-        self.beita0 = nn.Parameter(torch.ones(1))
-        self.beita1 = nn.Parameter(torch.ones(1))
-        self.beita2 = nn.Parameter(torch.ones(1))
-        self.beita3 = nn.Parameter(torch.ones(1))
+        self.beita0 = nn.Parameter(torch.zeros(1))
+        self.beita1 = nn.Parameter(torch.zeros(1))
+        self.beita2 = nn.Parameter(torch.zeros(1))
+        self.beita3 = nn.Parameter(torch.zeros(1))
         
     def forward(self, input):
         
