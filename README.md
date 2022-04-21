@@ -1,5 +1,5 @@
 # NAU-Net
-Pytorch code for NAU-Net, U-Net, PSPNet in paper [NAU-Net: A New Deep Learning Framework in Glacial Lake Detection](https://doi.org/10.1109/LGRS.2022.3165045).  These models are implemented based on [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) and [pytorchcv](https://pypi.org/project/pytorchcv/).  DeepLabV3+ in our paper can be called directly from [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch).
+Pytorch code for NAU-Net, U-Net, PSPNet in paper [NAU-Net: A New Deep Learning Framework in Glacial Lake Detection](https://doi.org/10.1109/LGRS.2022.3165045).
 ## Citation
 If NAU-Net is useful for your research, please consider citing:
 ```
